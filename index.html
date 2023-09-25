@@ -8,17 +8,19 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
   <title>Universe</title>
 </head>
 <body>
   <nav>
-    <img src="./img/Vector.svg" alt="logo">
-    <a href="/" onclick="route()">Home</a>
-    <a href="/universo" onclick="route()">O Universo</a>
-    <a href="/exploracao" onclick="route()">Exploração</a>
+    <img src="./img/logo.svg" alt="logo">
+    <a id="home" href="/" onclick="route()">Home</a>
+    <a id="universe" href="/universo" onclick="route()">O Universo</a>
+    <a id="explore" href="/exploracao" onclick="route()">Exploração</a>
   </nav>
 
   <div id="app"></div>
+
   <script type="module" src="./js/main.js"></script>
 </body>
 </html>

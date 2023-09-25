@@ -1,27 +1,13 @@
-const routes={
-  '/':"/pages/home.html",
-  "/universo":"/pages/oUniverso.html",
-  "/exploracao":"/pages/exploracao.html",
-  404:"/pages/404.html,"
-}
+import {Router} from "./router.js"
 
-function route(event){
-  event= event || window.event
-  event.preventDefault()
-  window.history.pushState({}, "",event.target.href)
-  handle()
+const router=new Router()
 
-}
+router.add("/","/pages/home.html")
+router.add("/universo","/pages/oUniverso.html")
+router.add("/exploracao","/pages/exploracao.html")
+router.add(404,"/pages/404.html")
 
+router.handle()
 
-function handle(){
-  const {pathname}=window.location
-  const route=routes[pathname] || routes[404]
-  fetch(route)
-    .then(data=>data.text())
-    .then(html=>{
-      document.getElementById("app").innerHTML=html
-    })
-}
-
-window.route=()=>route()
+window.onpopstate=()=>router.handle()
+window.route=()=>router.route()
