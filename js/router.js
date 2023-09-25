@@ -1,7 +1,10 @@
+
+
 const home= document.getElementById("home")
 const universe=document.getElementById("universe")
 const explore=document.getElementById("explore")
-const main=document.getElementById("main")
+const element = document.getElementById("buttonUniverse");
+
 export class Router{
  
   routes={}
@@ -22,7 +25,7 @@ export class Router{
   handle(){
     const {pathname}=window.location
     const route=this.routes[pathname] || this.routes[404]
-    
+    console.log(element)
     //bold fixed in nav elements
     if(route.includes("exploracao")){
       home.classList.remove("clicked")
@@ -52,3 +55,4 @@ export class Router{
     })
   }
 }
+
