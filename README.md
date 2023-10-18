@@ -40,9 +40,11 @@ Caso ainda nao tenha instalado o lite-server no projeto, deve instala-lo dando o
 - npm init -y
 Após isso de o seguinte comando:
 - npm install lite-server
+
 Em seguinda configure o "script" dentro do package.json adicionando a seguinte linha:
 - "start": "lite-server"
-Por fim o seguinte comand0:
+
+Por fim o seguinte comand:
 - npm run start
 
 Caso seja dado um git clone com todas as pastas desse repositório, é necessário apenas dar esse comando:
