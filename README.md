@@ -44,7 +44,7 @@ Após isso de o seguinte comando:
 Em seguinda configure o "script" dentro do package.json adicionando a seguinte linha:
 - "start": "lite-server"
 
-Por fim o seguinte comand:
+Por fim o seguinte comando:
 - npm run start
 
 Caso seja dado um git clone com todas as pastas desse repositório, é necessário apenas dar esse comando:
