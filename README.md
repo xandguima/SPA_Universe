@@ -51,7 +51,7 @@ Caso seja dado um git clone com todas as pastas desse repositório, é necessár
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK]([https://www.figma.com/community/file/1282823495335498952](https://www.figma.com/file/3aPY707KmoOR5xyosFJCu9/%5BDesafios-Explorer%5D-SPA-Universe-(Copy)?type=design&node-id=104%3A48&mode=design&t=73BAg6EW41jHA7k3-1)https://www.figma.com/file/3aPY707KmoOR5xyosFJCu9/%5BDesafios-Explorer%5D-SPA-Universe-(Copy)?type=design&node-id=104%3A48&mode=design&t=73BAg6EW41jHA7k3-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/3aPY707KmoOR5xyosFJCu9/%5BDesafios-Explorer%5D-SPA-Universe-(Copy)?type=design&node-id=104%3A48&mode=design&t=73BAg6EW41jHA7k3-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
